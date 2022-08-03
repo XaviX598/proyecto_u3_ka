@@ -1,0 +1,20 @@
+2022-08-02 19:45:44 INFO  root:30 - INNER JOIN
+2022-08-02 19:45:44 INFO  root:33 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:45:44 INFO  root:35 - LEFT JOIN
+2022-08-02 19:45:44 INFO  root:38 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:45:44 INFO  root:40 - RIGHT JOIN
+2022-08-02 19:45:44 INFO  root:43 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:54:44 INFO  root:29 - INNER JOIN
+2022-08-02 19:54:44 INFO  root:32 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:54:44 INFO  root:35 - INNER JOIN sin argumento
+2022-08-02 19:54:44 INFO  root:38 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:54:44 INFO  root:38 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:54:44 INFO  root:41 - LEFT JOIN
+2022-08-02 19:54:44 INFO  root:44 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:54:44 INFO  root:47 - LEFT JOIN sin argumentos
+2022-08-02 19:54:44 INFO  root:50 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:54:44 INFO  root:50 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-02 19:54:44 INFO  root:50 - Hotel:Hilton Colon Malecon
+2022-08-02 19:54:44 INFO  root:50 - Hotel:Oro Verde Cuenca
+2022-08-02 19:54:44 INFO  root:53 - RIGHT JOIN
+2022-08-02 19:54:44 INFO  root:56 - Hotel:Hilton Colon Patria y Amazonas
