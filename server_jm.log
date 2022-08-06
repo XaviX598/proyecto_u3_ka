@@ -18,3 +18,74 @@
 2022-08-02 19:54:44 INFO  root:50 - Hotel:Oro Verde Cuenca
 2022-08-02 19:54:44 INFO  root:53 - RIGHT JOIN
 2022-08-02 19:54:44 INFO  root:56 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:12:24 INFO  root:59 - JOIN WHERE
+2022-08-05 19:12:24 INFO  root:62 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:19:41 INFO  root:59 - JOIN WHERE
+2022-08-05 19:19:41 INFO  root:62 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:19:41 INFO  root:65 - INNER JOIN EAGER/LAZY
+2022-08-05 19:19:41 INFO  root:68 - Hotel usando Eager/Lazy:Hilton Colon Patria y Amazonas
+2022-08-05 19:21:35 INFO  root:59 - JOIN WHERE
+2022-08-05 19:21:35 INFO  root:62 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:21:35 INFO  root:65 - INNER JOIN EAGER/LAZY
+2022-08-05 19:21:35 INFO  root:68 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 19:27:26 INFO  root:59 - JOIN WHERE
+2022-08-05 19:27:26 INFO  root:62 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:27:26 INFO  root:65 - INNER JOIN EAGER/LAZY
+2022-08-05 19:27:26 INFO  root:68 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 19:27:26 INFO  root:69 - Hotel usando Eager/Lazy Habitaciones: [Habitacion [id=2, numero=A234, piso=10, tipo=Familiar], Habitacion [id=3, numero=4564651, piso=1, tipo=Matrimonial]]
+2022-08-05 19:29:48 INFO  root:59 - JOIN WHERE
+2022-08-05 19:29:48 INFO  root:62 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:29:48 INFO  root:65 - INNER JOIN EAGER/LAZY
+2022-08-05 19:29:48 INFO  root:68 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 19:34:15 INFO  root:59 - JOIN WHERE
+2022-08-05 19:34:15 INFO  root:62 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:34:15 INFO  root:65 - INNER JOIN EAGER/LAZY
+2022-08-05 19:34:15 INFO  root:68 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 19:34:15 INFO  root:69 - Hotel usando Eager/Lazy Habitaciones: [Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]], Habitacion [id=3, numero=4564651, piso=1, tipo=Matrimonial, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]]
+2022-08-05 19:37:48 INFO  root:60 - JOIN WHERE
+2022-08-05 19:37:48 INFO  root:63 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:37:48 INFO  root:66 - INNER JOIN EAGER/LAZY
+2022-08-05 19:37:48 INFO  root:69 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 19:37:48 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 19:37:48 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=3, numero=4564651, piso=1, tipo=Matrimonial, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 19:39:54 INFO  root:60 - JOIN WHERE
+2022-08-05 19:39:54 INFO  root:63 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:39:54 INFO  root:66 - INNER JOIN EAGER/LAZY
+2022-08-05 19:39:54 INFO  root:69 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 19:41:14 INFO  root:60 - JOIN WHERE
+2022-08-05 19:41:14 INFO  root:63 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:41:14 INFO  root:66 - INNER JOIN EAGER/LAZY
+2022-08-05 19:41:14 INFO  root:69 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 19:50:54 INFO  root:60 - JOIN WHERE
+2022-08-05 19:50:54 INFO  root:63 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 19:50:54 INFO  root:66 - INNER JOIN EAGER/LAZY
+2022-08-05 19:50:54 INFO  root:69 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 19:50:54 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 19:50:54 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=3, numero=4564651, piso=1, tipo=Matrimonial, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:01:05 INFO  root:60 - JOIN WHERE
+2022-08-05 20:01:05 INFO  root:63 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 20:01:05 INFO  root:66 - INNER JOIN EAGER/LAZY
+2022-08-05 20:01:05 INFO  root:69 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 20:01:05 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:01:05 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=3, numero=4564651, piso=1, tipo=Matrimonial, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:01:05 INFO  root:76 - JOIN FETCH
+2022-08-05 20:01:05 INFO  root:79 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 20:01:05 INFO  root:81 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:02:01 INFO  root:60 - JOIN WHERE
+2022-08-05 20:02:01 INFO  root:63 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 20:02:01 INFO  root:66 - INNER JOIN EAGER/LAZY
+2022-08-05 20:02:01 INFO  root:69 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 20:02:01 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:02:01 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=3, numero=4564651, piso=1, tipo=Matrimonial, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:02:01 INFO  root:76 - JOIN FETCH
+2022-08-05 20:02:01 INFO  root:79 - Hotel usando Join Fetch: Hilton Colon Patria y Amazonas
+2022-08-05 20:02:01 INFO  root:81 - Hotel usando Join Fetch Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:08:14 INFO  root:60 - JOIN WHERE
+2022-08-05 20:08:14 INFO  root:63 - Hotel:Hilton Colon Patria y Amazonas
+2022-08-05 20:08:14 INFO  root:66 - INNER JOIN EAGER/LAZY
+2022-08-05 20:08:14 INFO  root:69 - Hotel usando Eager/Lazy: Hilton Colon Patria y Amazonas
+2022-08-05 20:08:14 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:08:14 INFO  root:71 - Hotel usando Eager/Lazy Habitaciones: Habitacion [id=3, numero=4564651, piso=1, tipo=Matrimonial, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-05 20:08:14 INFO  root:76 - JOIN FETCH
+2022-08-05 20:08:14 INFO  root:79 - Hotel usando Join Fetch: Hilton Colon Patria y Amazonas
+2022-08-05 20:08:14 INFO  root:81 - Hotel usando Join Fetch Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]

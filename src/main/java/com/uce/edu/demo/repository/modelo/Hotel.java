@@ -2,8 +2,10 @@ package com.uce.edu.demo.repository.modelo;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -22,9 +24,11 @@ public class Hotel {
 	@Column(name = "hote_nombre")
 	private String nombre;
 	@Column(name = "hote_direccion")
-	private String direccion;
-	@OneToMany(mappedBy = "hotel")
+	private String direccion; 
+	//lazy tambien como carga perezosa  y eager es por defecto pero muy costosa
+	@OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	private List<Habitacion> habitaciones;
+	
 	@Override
 	public String toString() {
 		return "Hotel [id=" + id + ", nombre=" + nombre + ", direccion=" + direccion + "]";
