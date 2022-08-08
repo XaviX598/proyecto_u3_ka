@@ -89,3 +89,16 @@
 2022-08-05 20:08:14 INFO  root:76 - JOIN FETCH
 2022-08-05 20:08:14 INFO  root:79 - Hotel usando Join Fetch: Hilton Colon Patria y Amazonas
 2022-08-05 20:08:14 INFO  root:81 - Hotel usando Join Fetch Habitaciones: Habitacion [id=2, numero=A234, piso=10, tipo=Familiar, hotel=Hotel [id=1, nombre=Hilton Colon, direccion=Patria y Amazonas]]
+2022-08-08 15:40:08 INFO  root:93 - INNER JOIN
+2022-08-08 15:40:08 INFO  root:96 - Hotel:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 15:42:36 INFO  root:93 - INNER JOIN
+2022-08-08 15:42:36 INFO  root:96 - Hotel:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 15:42:36 INFO  root:99 - INNER JOIN sin argumento
+2022-08-08 15:42:36 INFO  root:102 - Hotel:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 15:42:36 INFO  root:105 - LEFT JOIN
+2022-08-08 15:42:36 INFO  root:108 - Hotel:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 15:42:36 INFO  root:108 - Hotel:Factura [id=2, fecha=2022-07-08T00:00, numero=2]
+2022-08-08 15:42:36 INFO  root:111 - LEFT JOIN sin argumentos
+2022-08-08 15:42:36 INFO  root:114 - Hotel:Factura [id=2, fecha=2022-07-08T00:00, numero=2]
+2022-08-08 15:42:36 INFO  root:117 - RIGHT JOIN
+2022-08-08 15:42:36 INFO  root:120 - Hotel:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
