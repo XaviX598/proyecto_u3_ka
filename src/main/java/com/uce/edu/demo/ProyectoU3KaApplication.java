@@ -10,6 +10,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.uce.edu.demo.cajero.repository.IFacturaRepository;
+import com.uce.edu.demo.cajero.repository.modelo.DetalleFactura;
 import com.uce.edu.demo.cajero.repository.modelo.Factura;
 import com.uce.edu.demo.cajero.service.IFacturaService;
 import com.uce.edu.demo.repository.modelo.Habitacion;
@@ -90,36 +91,32 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 //		
 //		}
 //		
-		log.info("INNER JOIN");
-		List<Factura> listaFacturas = this.iFacturaService.buscarFacturaInnerJoin(new BigDecimal(100));
-		for (Factura item : listaFacturas) {
-			log.info("Hotel:" + item);
+		
+		
+		log.info("JOIN WHERE");
+		List<Factura> listaFacturaWhere = this.iFacturaService.buscarFacturaJoinWhere(new BigDecimal(100));
+		for (Factura item : listaFacturaWhere) {
+			log.info("Factura:" + item);
 		}
 		
-		log.info("INNER JOIN sin argumento");
-		List<Factura> listaFacturas1 = this.iFacturaService.buscarFacturaInnerJoin(new BigDecimal(100));
-		for (Factura item : listaFacturas1) {
-			log.info("Hotel:" + item);
+		log.info("INNER JOIN EAGER/LAZY");
+		List<Factura> listaFacturaEagerLazy = this.iFacturaService.buscarFacturaInnerJoin(new BigDecimal(100));
+		for (Factura item : listaFacturaEagerLazy) {
+			log.info("Factura usando Eager/Lazy: " + item);
+			for(DetalleFactura d : item.getDetalles()) {
+				log.info("Factura usando Eager/Lazy DetalleFactura: " + d);
+			}	
+		
 		}
 		
-		log.info("LEFT JOIN");
-		List<Factura> listaFacturas2 = this.iFacturaService.buscarFacturaOuterJoinLeft(new BigDecimal(50));
-		for (Factura item : listaFacturas2) {
-			log.info("Hotel:" + item);
+		log.info("JOIN FETCH");
+		List<Factura> listaFacturaFecth = this.iFacturaService.buscarFacturaFetchJoin(new BigDecimal(3.5));
+		for (Factura item : listaFacturaFecth) {
+			log.info("Factura usando Join Fetch: " + item);
+			for(DetalleFactura d : item.getDetalles()) {
+				log.info("Factura usando Join Fetch DetalleFactura: " + d);
+			}	
+		
 		}
-		
-		log.info("LEFT JOIN sin argumentos");
-		List<Factura> listaFacturas3 = this.iFacturaService.buscarFacturaOuterJoinLeft(new BigDecimal(3.5));
-		for (Factura item : listaFacturas3) {
-			log.info("Hotel:" + item);
-		}
-		
-		log.info("RIGHT JOIN");
-		List<Factura> listaFacturas4 = this.iFacturaService.buscarFacturaOuterJoinRight(new BigDecimal(100));
-		for (Factura item : listaFacturas4) {
-			log.info("Hotel:" + item);
-		}
-		
-		
 	}
 }

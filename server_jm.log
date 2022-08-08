@@ -102,3 +102,22 @@
 2022-08-08 15:42:36 INFO  root:114 - Hotel:Factura [id=2, fecha=2022-07-08T00:00, numero=2]
 2022-08-08 15:42:36 INFO  root:117 - RIGHT JOIN
 2022-08-08 15:42:36 INFO  root:120 - Hotel:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 15:59:22 INFO  root:96 - JOIN WHERE
+2022-08-08 15:59:22 INFO  root:99 - Factura:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 15:59:22 INFO  root:102 - INNER JOIN EAGER/LAZY
+2022-08-08 15:59:22 INFO  root:105 - Factura usando Eager/Lazy: Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 16:00:20 INFO  root:96 - JOIN WHERE
+2022-08-08 16:00:20 INFO  root:99 - Factura:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 16:00:33 INFO  root:96 - JOIN WHERE
+2022-08-08 16:00:33 INFO  root:99 - Factura:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 16:00:33 INFO  root:102 - INNER JOIN EAGER/LAZY
+2022-08-08 16:00:33 INFO  root:105 - Factura usando Eager/Lazy: Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 16:02:38 INFO  root:96 - JOIN WHERE
+2022-08-08 16:02:39 INFO  root:99 - Factura:Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 16:02:39 INFO  root:102 - INNER JOIN EAGER/LAZY
+2022-08-08 16:02:39 INFO  root:105 - Factura usando Eager/Lazy: Factura [id=1, fecha=2022-07-07T00:00, numero=000001]
+2022-08-08 16:02:39 INFO  root:107 - Factura usando Eager/Lazy DetalleFactura: DetalleFactura [id=1, cantidad=200, subtotal=100.00, factura=Factura [id=1, fecha=2022-07-07T00:00, numero=000001]]
+2022-08-08 16:02:39 INFO  root:107 - Factura usando Eager/Lazy DetalleFactura: DetalleFactura [id=2, cantidad=100, subtotal=50.00, factura=Factura [id=1, fecha=2022-07-07T00:00, numero=000001]]
+2022-08-08 16:02:39 INFO  root:112 - JOIN FETCH
+2022-08-08 16:02:39 INFO  root:115 - Factura usando Join Fetch: Factura [id=2, fecha=2022-07-08T00:00, numero=2]
+2022-08-08 16:02:39 INFO  root:117 - Factura usando Join Fetch DetalleFactura: DetalleFactura [id=4, cantidad=2, subtotal=3.50, factura=Factura [id=2, fecha=2022-07-08T00:00, numero=2]]

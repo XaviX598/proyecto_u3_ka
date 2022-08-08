@@ -48,13 +48,13 @@ public class FacturaServiceImpl implements IFacturaService{
 	@Override
 	public List<Factura> buscarFacturaJoinWhere(BigDecimal subtotal) {
 		// TODO Auto-generated method stub
-		return null;
+		return this.iFacturaRepository.buscarFacturaJoinWhere(subtotal);
 	}
 
 	@Override
 	public List<Factura> buscarFacturaFetchJoin(BigDecimal subtotal) {
 		// TODO Auto-generated method stub
-		return null;
+		return this.iFacturaRepository.buscarFacturaFetchJoin(subtotal);
 	}
 
 }
