@@ -16,6 +16,7 @@ import com.uce.edu.demo.cajero.service.IFacturaService;
 import com.uce.edu.demo.repository.modelo.Habitacion;
 import com.uce.edu.demo.repository.modelo.Hotel;
 import com.uce.edu.demo.service.IHotelService;
+import com.uce.edu.demo.service.ITransferenciaService;
 
 @SpringBootApplication
 public class ProyectoU3KaApplication implements CommandLineRunner {
@@ -26,7 +27,8 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 //	private IHotelService iHotelService;
 	
 	@Autowired
-	private IFacturaService iFacturaService;
+	private ITransferenciaService iTransferenciaService;
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoU3KaApplication.class, args);
@@ -90,33 +92,11 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 //			}	
 //		
 //		}
-//		
+		
+		//this.iTransferenciaService.realizarTransferencia("1234", "5647", new BigDecimal(10));
+		this.iTransferenciaService.realizarTransferenciaFachada("1234", "5647", new BigDecimal(10));
 		
 		
-		log.info("JOIN WHERE");
-		List<Factura> listaFacturaWhere = this.iFacturaService.buscarFacturaJoinWhere(new BigDecimal(100));
-		for (Factura item : listaFacturaWhere) {
-			log.info("Factura:" + item);
-		}
-		
-		log.info("INNER JOIN EAGER/LAZY");
-		List<Factura> listaFacturaEagerLazy = this.iFacturaService.buscarFacturaInnerJoin(new BigDecimal(100));
-		for (Factura item : listaFacturaEagerLazy) {
-			log.info("Factura usando Eager/Lazy: " + item);
-			for(DetalleFactura d : item.getDetalles()) {
-				log.info("Factura usando Eager/Lazy DetalleFactura: " + d);
-			}	
-		
-		}
-		
-		log.info("JOIN FETCH");
-		List<Factura> listaFacturaFecth = this.iFacturaService.buscarFacturaFetchJoin(new BigDecimal(3.5));
-		for (Factura item : listaFacturaFecth) {
-			log.info("Factura usando Join Fetch: " + item);
-			for(DetalleFactura d : item.getDetalles()) {
-				log.info("Factura usando Join Fetch DetalleFactura: " + d);
-			}	
-		
-		}
+	
 	}
 }

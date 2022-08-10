@@ -121,3 +121,15 @@
 2022-08-08 16:02:39 INFO  root:112 - JOIN FETCH
 2022-08-08 16:02:39 INFO  root:115 - Factura usando Join Fetch: Factura [id=2, fecha=2022-07-08T00:00, numero=2]
 2022-08-08 16:02:39 INFO  root:117 - Factura usando Join Fetch DetalleFactura: DetalleFactura [id=4, cantidad=2, subtotal=3.50, factura=Factura [id=2, fecha=2022-07-08T00:00, numero=2]]
+2022-08-09 18:29:51 INFO  root:84 - JOIN FETCH
+2022-08-09 18:29:51 INFO  root:59 - Transaccion activa service: false
+2022-08-09 18:32:25 INFO  root:84 - JOIN FETCH
+2022-08-09 19:46:56 INFO  root:34 - Transaccion activa buscarPorNumero: true
+2022-08-09 19:54:02 INFO  root:33 - Cuenta: false
+2022-08-09 19:54:33 INFO  root:33 - Cuenta: false
+2022-08-09 19:55:01 INFO  root:33 - Cuenta: false
+2022-08-09 19:56:06 INFO  root:33 - Cuenta: false
+2022-08-09 19:58:43 INFO  root:33 - Cuenta: false
+2022-08-09 19:58:44 INFO  root:33 - Cuenta: false
+2022-08-09 20:12:20 INFO  root:33 - Cuenta: false
+2022-08-09 20:12:20 INFO  root:33 - Cuenta: false
