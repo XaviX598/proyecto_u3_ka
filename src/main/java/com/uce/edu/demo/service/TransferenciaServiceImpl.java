@@ -23,7 +23,7 @@ public class TransferenciaServiceImpl implements ITransferenciaService {
 	private ITransferenciaRepository iTransferenciaRepository;
 
 	@Override
-	@Transactional(value=TxType.REQUIRED)
+	@Transactional(value=TxType.REQUIRES_NEW)
 	public void realizarTransferencia(String numeroCtaOrigen, String numeroCtaDestino, BigDecimal monto) {
 		// TODO Auto-generated method stub
 		
