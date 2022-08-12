@@ -59,5 +59,29 @@ public class HotelServiceImpl implements IHotelService {
 		log.info("Transaccion activa service: "+org.springframework.transaction.support.TransactionSynchronizationManager.isActualTransactionActive() );
 		return this.iHotelRepository.buscarHotelFetchJoin(tipoHabitacion);
 	}
+	
+	@Override
+	public void insertar(Hotel hotel) {
+		// TODO Auto-generated method stub
+		this.iHotelRepository.insertar(hotel);
+	}
+
+	@Override
+	public Hotel buscarHotel(Integer id) {
+		// TODO Auto-generated method stub
+		return this.iHotelRepository.buscarHotel(id);
+	}
+
+	@Override
+	public int actualizarHotel(String nombre, String direccion) {
+		// TODO Auto-generated method stub
+		return this.iHotelRepository.actualizarHotel(nombre, direccion);
+	}
+
+	@Override
+	public int eliminarHotel(String direccion) {
+		// TODO Auto-generated method stub
+		return this.iHotelRepository.eliminarHotel(direccion);
+	}
 
 }
