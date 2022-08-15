@@ -55,6 +55,12 @@ public class TransferenciaServiceImpl implements ITransferenciaService {
 		this.realizarTransferencia(ctaOrigen, ctaDestino, monto);
 	}
 
+	@Override
+	public void insertar(Transferencia transferencia) {
+		// TODO Auto-generated method stub
+		this.iTransferenciaRepository.insertar(transferencia);
+	}
+
 	
 
 }

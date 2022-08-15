@@ -1,4 +1,4 @@
-package com.uce.edu.demo;
+package com.uce.edu.demo.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -19,6 +19,7 @@ import com.uce.edu.demo.repository.ICuentaBancariaRepository;
 import com.uce.edu.demo.repository.ITransferenciaRepository;
 import com.uce.edu.demo.repository.modelo.CuentaBancaria;
 import com.uce.edu.demo.repository.modelo.Transferencia;
+import com.uce.edu.demo.service.ICuentaBancariaService;
 import com.uce.edu.demo.service.ITransferenciaService;
 
 @SpringBootTest
@@ -26,14 +27,13 @@ import com.uce.edu.demo.service.ITransferenciaService;
 @Transactional
 public class CuentaBancariaTest {
 
-	@Autowired
-	private ITransferenciaRepository iTransferenciaRepository;
+	
 
 	@Autowired
 	private ITransferenciaService iTransferenciaService;
 
 	@Autowired
-	private ICuentaBancariaRepository iCuentaBancariaRepository;
+	private ICuentaBancariaService iCuentaBancariaService;
 
 	@Test
 	@Rollback(true)
@@ -50,15 +50,15 @@ public class CuentaBancariaTest {
 	@Rollback(true)
 	public void insertarTransferenciaTest() {
 
-		CuentaBancaria ctaOrigen = this.iCuentaBancariaRepository.buscarPorNumero("1234");
-		CuentaBancaria ctaDestino = this.iCuentaBancariaRepository.buscarPorNumero("5647");
+		CuentaBancaria ctaOrigen = this.iCuentaBancariaService.buscarPorNumero("1234");
+		CuentaBancaria ctaDestino = this.iCuentaBancariaService.buscarPorNumero("5647");
 
 		Transferencia tra = new Transferencia();
 		tra.setFecha(LocalDateTime.now());
 		tra.setMonto(new BigDecimal("20"));
 		tra.setCuentaOrigen(ctaOrigen);
 		tra.setCuentaDestino(ctaDestino);
-		this.iTransferenciaRepository.insertar(tra);
+		this.iTransferenciaService.insertar(tra);
 
 		assertNotNull(tra.getMonto());
 
@@ -68,7 +68,7 @@ public class CuentaBancariaTest {
 	@Rollback(true)
 	public void cuentaBancariaBuscarPorNumeroTest() {
 
-		assertThat(this.iCuentaBancariaRepository.buscarPorNumero("1234")).isNotNull();
+		assertThat(this.iCuentaBancariaService.buscarPorNumero("1234")).isNotNull();
 	}
 
 }

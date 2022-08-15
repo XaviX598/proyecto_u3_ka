@@ -149,3 +149,35 @@
 2022-08-12 10:44:35 INFO  root:94 - Transaccion activa repository: true
 2022-08-12 11:26:10 INFO  root:33 - Cuenta: false
 2022-08-12 11:26:10 INFO  root:33 - Cuenta: false
+2022-08-12 11:54:22 INFO  root:59 - Transaccion activa service: true
+2022-08-12 11:54:22 INFO  root:94 - Transaccion activa repository: true
+2022-08-12 11:54:22 INFO  root:57 - org.assertj.core.api.ListAssert@1
+2022-08-14 12:43:19 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:19 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:20 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:20 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:20 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:40 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:40 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:40 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:40 INFO  root:33 - Cuenta: false
+2022-08-14 12:43:40 INFO  root:33 - Cuenta: false
+2022-08-14 18:47:51 INFO  root:33 - Cuenta: false
+2022-08-15 13:46:13 INFO  root:33 - Cuenta: false
+2022-08-15 13:46:13 INFO  root:33 - Cuenta: false
+2022-08-15 13:46:13 INFO  root:33 - Cuenta: false
+2022-08-15 13:46:13 INFO  root:33 - Cuenta: false
+2022-08-15 13:46:13 INFO  root:33 - Cuenta: false
+2022-08-15 13:46:23 INFO  root:59 - Transaccion activa service: true
+2022-08-15 13:46:23 INFO  root:94 - Transaccion activa repository: true
+2022-08-15 13:47:32 INFO  root:59 - Transaccion activa service: true
+2022-08-15 13:47:32 INFO  root:94 - Transaccion activa repository: true
+2022-08-15 13:52:55 INFO  root:59 - Transaccion activa service: true
+2022-08-15 13:52:55 INFO  root:94 - Transaccion activa repository: true
+2022-08-15 14:14:47 INFO  root:33 - Cuenta: false
+2022-08-15 14:14:47 INFO  root:33 - Cuenta: false
+2022-08-15 14:14:47 INFO  root:33 - Cuenta: false
+2022-08-15 14:14:47 INFO  root:33 - Cuenta: false
+2022-08-15 14:14:47 INFO  root:33 - Cuenta: false
+2022-08-15 14:14:57 INFO  root:59 - Transaccion activa service: true
+2022-08-15 14:14:57 INFO  root:94 - Transaccion activa repository: true
