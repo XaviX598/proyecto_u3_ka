@@ -26,9 +26,9 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 //	@Autowired
 //	private IHotelService iHotelService;
 	
-//	@Autowired
-//	private ITransferenciaService iTransferenciaService;
-//	
+	@Autowired
+	private ITransferenciaService iTransferenciaService;
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoU3KaApplication.class, args);
@@ -94,7 +94,7 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 //		}
 		
 		//this.iTransferenciaService.realizarTransferencia("1234", "5647", new BigDecimal(10));
-//		this.iTransferenciaService.realizarTransferenciaFachada("1234", "5647", new BigDecimal(10));
+		this.iTransferenciaService.realizarTransferenciaFachada("1234", "5647", new BigDecimal(1));
 		
 		
 	
