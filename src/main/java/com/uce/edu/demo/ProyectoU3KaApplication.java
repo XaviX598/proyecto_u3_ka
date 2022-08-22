@@ -13,9 +13,13 @@ import com.uce.edu.demo.cajero.repository.IFacturaRepository;
 import com.uce.edu.demo.cajero.repository.modelo.DetalleFactura;
 import com.uce.edu.demo.cajero.repository.modelo.Factura;
 import com.uce.edu.demo.cajero.service.IFacturaService;
+import com.uce.edu.demo.repository.modelo.Cliente;
 import com.uce.edu.demo.repository.modelo.Habitacion;
 import com.uce.edu.demo.repository.modelo.Hotel;
+import com.uce.edu.demo.repository.modelo.Producto;
+import com.uce.edu.demo.service.IClienteService;
 import com.uce.edu.demo.service.IHotelService;
+import com.uce.edu.demo.service.IProductoService;
 import com.uce.edu.demo.service.ITransferenciaService;
 
 @SpringBootApplication
@@ -23,11 +27,14 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 
 	private static final Logger log = Logger.getRootLogger();
 
-//	@Autowired
-//	private IHotelService iHotelService;
+	@Autowired
+	private IClienteService iClienteService;
 	
 	@Autowired
-	private ITransferenciaService iTransferenciaService;
+	private IFacturaService iFacturaService;
+	
+	@Autowired
+	private IProductoService iProductoService;
 	
 
 	public static void main(String[] args) {
@@ -36,65 +43,32 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-//		// TODO Auto-generated method stub
-//		log.info("INNER JOIN");
-//		List<Hotel> listaHoteles = this.iHotelService.buscarHotelInnerJoin("Familiar");
-//		for (Hotel item : listaHoteles) {
-//			log.info("Hotel:" + item.getNombre() + " " + item.getDireccion());
-//		}
-//		
-//		log.info("INNER JOIN sin argumento");
-//		List<Hotel> listaHotelesSN = this.iHotelService.buscarHotelInnerJoin();
-//		for (Hotel item : listaHotelesSN) {
-//			log.info("Hotel:" + item.getNombre() + " " + item.getDireccion());
-//		}
-//		
-//		log.info("LEFT JOIN");
-//		List<Hotel> listaHotelesLeft = this.iHotelService.buscarHotelOuterJoinLeft("Familiar");
-//		for (Hotel item : listaHotelesLeft) {
-//			log.info("Hotel:" + item.getNombre() + " " + item.getDireccion());
-//		}
-//		
-//		log.info("LEFT JOIN sin argumentos");
-//		List<Hotel> listaHotelesLeftSN = this.iHotelService.buscarHotelOuterJoinLeft();
-//		for (Hotel item : listaHotelesLeftSN) {
-//			log.info("Hotel:" + item.getNombre() + " " + item.getDireccion());
-//		}
-//		
-//		log.info("RIGHT JOIN");
-//		List<Hotel> listaHotelesRight = this.iHotelService.buscarHotelOuterJoinRight("Familiar");
-//		for (Hotel item : listaHotelesRight) {
-//			log.info("Hotel:" + item.getNombre() + " " + item.getDireccion());
-//		}
-//		
-//		log.info("JOIN WHERE");
-//		List<Hotel> listaHotelesWhere = this.iHotelService.buscarHotelJoinWhere("Matrimonial");
-//		for (Hotel item : listaHotelesWhere) {
-//			log.info("Hotel:" + item.getNombre() + " " + item.getDireccion());
-//		}
-//		
-//		log.info("INNER JOIN EAGER/LAZY");
-//		List<Hotel> listaHotelesEagerLazy = this.iHotelService.buscarHotelInnerJoin("Familiar");
-//		for (Hotel item : listaHotelesEagerLazy) {
-//			log.info("Hotel usando Eager/Lazy: " + item.getNombre() + " " + item.getDireccion());
-//			for(Habitacion ha : item.getHabitaciones()) {
-//				log.info("Hotel usando Eager/Lazy Habitaciones: " + ha);
-//			}	
-//		
-//		}
-//		
-//		log.info("JOIN FETCH");
-//		List<Hotel> listaHotelesFecth = this.iHotelService.buscarHotelFetchJoin("Familiar");
-//		for (Hotel item : listaHotelesFecth) {
-//			log.info("Hotel usando Join Fetch: " + item.getNombre() + " " + item.getDireccion());
-//			for(Habitacion ha : item.getHabitaciones()) {
-//				log.info("Hotel usando Join Fetch Habitaciones: " + ha);
-//			}	
-//		
-//		}
 		
-		//this.iTransferenciaService.realizarTransferencia("1234", "5647", new BigDecimal(10));
-		this.iTransferenciaService.realizarTransferenciaFachada("1234", "5647", new BigDecimal(1));
+		Cliente c = new Cliente();
+		c.setApellido("Aguilar");
+		c.setCedula("223234231");
+		c.setNombre("Xavier");
+		c.setNumeroTarjeta("23121321");
+		
+		this.iClienteService.insertar(c);
+		
+		Producto p = new Producto();
+		p.setCodigo("2321");
+		p.setNombre("Coca");
+		p.setPrecio(new BigDecimal(20));
+		p.setStock(100);
+		this.iProductoService.insertar(p);
+		
+		Producto p1 = new Producto();
+		p1.setCodigo("2321321");
+		p1.setNombre("Pan");
+		p1.setPrecio(new BigDecimal(1));
+		p1.setStock(50);
+		this.iProductoService.insertar(p1);
+		
+		
+		
+		
 		
 		
 	
