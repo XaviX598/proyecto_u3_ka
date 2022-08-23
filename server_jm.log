@@ -214,3 +214,13 @@
 2022-08-19 19:20:53 INFO  root:33 - Cuenta: false
 2022-08-19 19:25:40 INFO  root:34 - Cuenta: false
 2022-08-19 19:29:26 INFO  root:34 - Cuenta: false
+2022-08-22 19:52:26 INFO  root:16 - Supplier Clase: Xavier
+2022-08-22 19:56:52 INFO  root:16 - Supplier Clase: Xavier
+2022-08-22 19:56:52 INFO  root:21 - Supplier Lambda: Xavier 2
+2022-08-22 20:01:14 INFO  root:16 - Supplier Clase: Xavier
+2022-08-22 20:01:14 INFO  root:19 - Supplier Clase: Daniel TE
+2022-08-22 20:01:14 INFO  root:24 - Supplier Lambda: Xavier 2
+2022-08-22 20:14:07 INFO  root:17 - Supplier Clase: Xavier
+2022-08-22 20:14:07 INFO  root:20 - Supplier Clase: Daniel TE
+2022-08-22 20:14:07 INFO  root:26 - Supplier Lambda: Xavier 2
+2022-08-22 20:14:07 INFO  root:29 - Supplier Lambda: Daniel TE 2
