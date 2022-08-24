@@ -224,3 +224,83 @@
 2022-08-22 20:14:07 INFO  root:20 - Supplier Clase: Daniel TE
 2022-08-22 20:14:07 INFO  root:26 - Supplier Lambda: Xavier 2
 2022-08-22 20:14:07 INFO  root:29 - Supplier Lambda: Daniel TE 2
+2022-08-23 19:30:02 INFO  root:17 - Supplier Clase: Xavier
+2022-08-23 19:30:02 INFO  root:20 - Supplier Clase: Daniel TE
+2022-08-23 19:30:02 INFO  root:26 - Supplier Lambda: Xavier 2
+2022-08-23 19:30:02 INFO  root:29 - Supplier Lambda: Daniel TE 2
+2022-08-23 19:30:02 INFO  root:52 - predicate Lamba: false
+2022-08-23 19:30:02 INFO  root:61 - function Lamba: 5
+2022-08-23 19:56:56 INFO  root:19 - Supplier Clase: Xavier
+2022-08-23 19:56:56 INFO  root:22 - Supplier Clase: Daniel TE
+2022-08-23 19:56:56 INFO  root:28 - Supplier Lambda: Xavier 2
+2022-08-23 19:56:56 INFO  root:31 - Supplier Lambda: Daniel TE 2
+2022-08-23 19:56:56 INFO  root:35 - High Order Supplier: Hola mundo
+2022-08-23 19:56:56 INFO  root:57 - predicate Lamba: false
+2022-08-23 19:56:56 INFO  root:71 - function Lamba: 5
+2022-08-23 19:56:56 INFO  root:84 - unary Lamba: Xaviersufijo
+2022-08-23 19:57:48 INFO  root:19 - Supplier Clase: Xavier
+2022-08-23 19:57:48 INFO  root:22 - Supplier Clase: Daniel TE
+2022-08-23 19:57:48 INFO  root:28 - Supplier Lambda: Xavier 2
+2022-08-23 19:57:48 INFO  root:31 - Supplier Lambda: Daniel TE 2
+2022-08-23 19:57:48 INFO  root:35 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-23 19:57:48 INFO  root:57 - predicate Lamba: false
+2022-08-23 19:57:48 INFO  root:71 - function Lamba: 5
+2022-08-23 19:57:48 INFO  root:84 - unary Lamba: Xaviersufijo
+2022-08-23 20:01:11 INFO  root:19 - Supplier Clase: Xavier
+2022-08-23 20:01:11 INFO  root:22 - Supplier Clase: Daniel TE
+2022-08-23 20:01:11 INFO  root:28 - Supplier Lambda: Xavier 2
+2022-08-23 20:01:11 INFO  root:31 - Supplier Lambda: Daniel TE 2
+2022-08-23 20:01:11 INFO  root:35 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-23 20:01:11 INFO  root:42 - High Order Supplier 213213234 Se proceso el dato
+2022-08-23 20:01:11 INFO  root:64 - predicate Lamba: false
+2022-08-23 20:01:11 INFO  root:78 - function Lamba: 5
+2022-08-23 20:01:11 INFO  root:91 - unary Lamba: Xaviersufijo
+2022-08-23 20:04:23 INFO  root:19 - Supplier Clase: Xavier
+2022-08-23 20:04:23 INFO  root:22 - Supplier Clase: Daniel TE
+2022-08-23 20:04:23 INFO  root:28 - Supplier Lambda: Xavier 2
+2022-08-23 20:04:23 INFO  root:31 - Supplier Lambda: Daniel TE 2
+2022-08-23 20:04:23 INFO  root:35 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-23 20:04:23 INFO  root:41 - High Order Supplier 213213234 Se proceso el dato
+2022-08-23 20:04:23 INFO  root:69 - predicate Lamba: false
+2022-08-23 20:04:23 INFO  root:83 - function Lamba: 5
+2022-08-23 20:04:23 INFO  root:96 - unary Lamba: Xaviersufijo
+2022-08-23 20:06:01 INFO  root:19 - Supplier Clase: Xavier
+2022-08-23 20:06:01 INFO  root:22 - Supplier Clase: Daniel TE
+2022-08-23 20:06:01 INFO  root:28 - Supplier Lambda: Xavier 2
+2022-08-23 20:06:01 INFO  root:31 - Supplier Lambda: Daniel TE 2
+2022-08-23 20:06:01 INFO  root:35 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-23 20:06:01 INFO  root:41 - High Order Supplier 213213234 Se proceso el dato
+2022-08-23 20:06:01 INFO  root:69 - predicate Lamba: false
+2022-08-23 20:06:01 INFO  root:86 - function Lamba: 5
+2022-08-23 20:06:01 INFO  root:99 - unary Lamba: Xaviersufijo
+2022-08-23 20:06:35 INFO  root:19 - Supplier Clase: Xavier
+2022-08-23 20:06:35 INFO  root:22 - Supplier Clase: Daniel TE
+2022-08-23 20:06:35 INFO  root:28 - Supplier Lambda: Xavier 2
+2022-08-23 20:06:35 INFO  root:31 - Supplier Lambda: Daniel TE 2
+2022-08-23 20:06:35 INFO  root:35 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-23 20:06:35 INFO  root:41 - High Order Supplier 213213234 Se proceso el dato
+2022-08-23 20:06:35 INFO  root:69 - predicate Lamba: false
+2022-08-23 20:06:35 INFO  root:73 - High Order predicate false
+2022-08-23 20:06:35 INFO  root:86 - function Lamba: 5
+2022-08-23 20:06:35 INFO  root:99 - unary Lamba: Xaviersufijo
+2022-08-23 20:07:26 INFO  root:19 - Supplier Clase: Xavier
+2022-08-23 20:07:26 INFO  root:22 - Supplier Clase: Daniel TE
+2022-08-23 20:07:26 INFO  root:28 - Supplier Lambda: Xavier 2
+2022-08-23 20:07:26 INFO  root:31 - Supplier Lambda: Daniel TE 2
+2022-08-23 20:07:26 INFO  root:35 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-23 20:07:26 INFO  root:41 - High Order Supplier 213213234 Se proceso el dato
+2022-08-23 20:07:26 INFO  root:69 - predicate Lamba: false
+2022-08-23 20:07:26 INFO  root:73 - High Order predicate true
+2022-08-23 20:07:26 INFO  root:86 - function Lamba: 5
+2022-08-23 20:07:26 INFO  root:99 - unary Lamba: Xaviersufijo
+2022-08-23 20:13:42 INFO  root:19 - Supplier Clase: Xavier
+2022-08-23 20:13:42 INFO  root:22 - Supplier Clase: Daniel TE
+2022-08-23 20:13:42 INFO  root:28 - Supplier Lambda: Xavier 2
+2022-08-23 20:13:42 INFO  root:31 - Supplier Lambda: Daniel TE 2
+2022-08-23 20:13:42 INFO  root:35 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-23 20:13:42 INFO  root:41 - High Order Supplier 213213234 Se proceso el dato
+2022-08-23 20:13:42 INFO  root:69 - predicate Lamba: false
+2022-08-23 20:13:42 INFO  root:73 - High Order predicate true
+2022-08-23 20:13:42 INFO  root:86 - function Lamba: 5
+2022-08-23 20:13:42 INFO  root:93 - High Order function 1A
+2022-08-23 20:13:42 INFO  root:105 - unary Lamba: Xaviersufijo
