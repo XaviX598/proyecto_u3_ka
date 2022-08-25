@@ -10,6 +10,7 @@ public class MainInterfacesFuncionales {
 		// TODO Auto-generated method stub
 		
 		ConsumoMetodosHighOrder metodosHO= new ConsumoMetodosHighOrder();
+		
 
 		// ---------------------------------------------SUPPLIER------------------------------------------------------
 

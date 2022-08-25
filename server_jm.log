@@ -304,3 +304,87 @@
 2022-08-23 20:13:42 INFO  root:86 - function Lamba: 5
 2022-08-23 20:13:42 INFO  root:93 - High Order function 1A
 2022-08-23 20:13:42 INFO  root:105 - unary Lamba: Xaviersufijo
+2022-08-25 12:40:11 INFO  root:29 - Supplier Clase Tarea: Xavier
+2022-08-25 12:40:11 INFO  root:36 - Supplier Lambda Tarea: Pedro Pablo
+2022-08-25 12:40:11 INFO  root:42 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-08-25 12:40:11 INFO  root:49 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-08-25 12:40:11 INFO  root:77 - predicate Lamba Tarea: false
+2022-08-25 12:40:11 INFO  root:81 - High Order predicate true
+2022-08-25 12:40:11 INFO  root:94 - Function: Si cumple con la condicion
+2022-08-25 12:40:11 INFO  root:103 - function Lamba: 5
+2022-08-25 12:40:11 INFO  root:110 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-08-25 12:40:11 INFO  root:124 - unary Lamba: XavierPruebas de los lambdas
+2022-08-25 12:41:15 INFO  root:20 - Supplier Clase Tarea: Xavier
+2022-08-25 12:41:15 INFO  root:27 - Supplier Lambda Tarea: Pedro Pablo
+2022-08-25 12:41:15 INFO  root:33 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-08-25 12:41:15 INFO  root:40 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-08-25 12:41:53 INFO  root:20 - Supplier Clase Tarea: Xavier
+2022-08-25 12:41:53 INFO  root:27 - Supplier Lambda Tarea: Pedro Pablo
+2022-08-25 12:41:53 INFO  root:33 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-08-25 12:41:53 INFO  root:40 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-08-25 12:41:53 INFO  root:68 - predicate Lamba Tarea: false
+2022-08-25 12:41:53 INFO  root:72 - High Order predicate true
+2022-08-25 12:41:53 INFO  root:85 - Function: Si cumple con la condicion
+2022-08-25 12:41:53 INFO  root:94 - function Lamba: 5
+2022-08-25 12:41:53 INFO  root:101 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-08-25 12:41:53 INFO  root:115 - unary Lamba: XavierPruebas de los lambdas
+2022-08-25 12:43:34 INFO  root:19 - Supplier Clase Tarea: Xavier
+2022-08-25 12:43:34 INFO  root:25 - Supplier Lambda Tarea: Pedro Pablo
+2022-08-25 12:43:34 INFO  root:29 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-08-25 12:43:34 INFO  root:36 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-08-25 12:43:34 INFO  root:61 - predicate Lamba Tarea: false
+2022-08-25 12:43:34 INFO  root:65 - High Order predicate true
+2022-08-25 12:43:34 INFO  root:78 - Function: Si cumple con la condicion
+2022-08-25 12:43:34 INFO  root:87 - function Lamba: 5
+2022-08-25 12:43:34 INFO  root:94 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-08-25 12:43:34 INFO  root:108 - unary Lamba: XavierPruebas de los lambdas
+2022-08-25 12:43:34 INFO  root:115 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
+2022-08-25 12:45:43 INFO  root:19 - Supplier Clase Tarea: Xavier
+2022-08-25 12:45:43 INFO  root:24 - Supplier Lambda Tarea: Pedro Pablo
+2022-08-25 12:45:43 INFO  root:28 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-08-25 12:45:43 INFO  root:35 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-08-25 12:46:57 INFO  root:60 - predicate Lamba Tarea: false
+2022-08-25 12:46:57 INFO  root:64 - High Order predicate true
+2022-08-25 12:51:02 INFO  root:60 - predicate Lamba Tarea: false
+2022-08-25 12:51:02 INFO  root:64 - High Order predicate true
+2022-08-25 12:51:53 INFO  root:60 - predicate Lamba Tarea: false
+2022-08-25 12:51:53 INFO  root:64 - High Order predicate true
+2022-08-25 12:58:07 INFO  root:60 - predicate Lamba Tarea: false
+2022-08-25 12:58:07 INFO  root:64 - High Order predicate true
+2022-08-25 13:00:36 INFO  root:60 - predicate Lamba Tarea: false
+2022-08-25 13:00:36 INFO  root:64 - High Order predicate true
+2022-08-25 13:04:10 INFO  root:60 - predicate Lamba Tarea: false
+2022-08-25 13:04:10 INFO  root:64 - High Order predicate true
+2022-08-25 13:07:56 INFO  root:60 - predicate Lamba Tarea: false
+2022-08-25 13:07:56 INFO  root:64 - High Order predicate true
+2022-08-25 13:10:22 INFO  root:60 - predicate Lamba Tarea: false
+2022-08-25 13:10:22 INFO  root:64 - High Order predicate true
+2022-08-25 13:26:36 INFO  root:102 - Probando Unary Operator para deber Prueba completada
+2022-08-25 13:26:55 INFO  root:101 - Probando Unary Operator para deber Prueba completada
+2022-08-25 13:28:22 INFO  root:57 - predicate Clase Tarea: false
+2022-08-25 13:28:22 INFO  root:61 - predicate Lamba Tarea: false
+2022-08-25 13:28:22 INFO  root:65 - High Order predicate true
+2022-08-25 13:37:23 INFO  root:80 - Function: Si cumple con la condicion
+2022-08-25 13:37:23 INFO  root:89 - function Lamba: 5
+2022-08-25 13:37:23 INFO  root:96 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-08-25 13:43:14 INFO  root:71 - Function clase: el numero es: 23
+2022-08-25 13:43:14 INFO  root:80 - Function: Si cumple con la condicion
+2022-08-25 13:43:14 INFO  root:89 - function Lamba: 5
+2022-08-25 13:43:14 INFO  root:96 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-08-25 13:43:46 INFO  root:103 - Probando Unary Operator para deber Prueba completada
+2022-08-25 13:43:46 INFO  root:111 - unary Lamba: XavierPruebas de los lambdas
+2022-08-25 13:43:46 INFO  root:118 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
+2022-08-25 13:47:28 INFO  root:19 - Supplier Clase Tarea: Xavier
+2022-08-25 13:47:28 INFO  root:24 - Supplier Lambda Tarea: Pedro Pablo
+2022-08-25 13:47:28 INFO  root:28 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-08-25 13:47:28 INFO  root:35 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-08-25 13:47:28 INFO  root:57 - predicate Clase Tarea: false
+2022-08-25 13:47:28 INFO  root:61 - predicate Lamba Tarea: false
+2022-08-25 13:47:28 INFO  root:65 - High Order predicate true
+2022-08-25 13:47:28 INFO  root:71 - Function clase: el numero es: 23
+2022-08-25 13:47:28 INFO  root:80 - Function: Si cumple con la condicion
+2022-08-25 13:47:28 INFO  root:89 - function Lamba: 5
+2022-08-25 13:47:28 INFO  root:96 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-08-25 13:47:28 INFO  root:103 - Probando Unary Operator para deber Prueba completada
+2022-08-25 13:47:28 INFO  root:111 - unary Lamba: XavierPruebas de los lambdas
+2022-08-25 13:47:28 INFO  root:118 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
