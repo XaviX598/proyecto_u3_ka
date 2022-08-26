@@ -1,14 +1,16 @@
-package com.uce.edu.demo.repository;
+package com.uce.edu.demo.tarea31.repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
+import javax.transaction.Transactional.TxType;
 
 import org.springframework.stereotype.Repository;
 
-import com.uce.edu.demo.repository.modelo.FacturaElectronica;
-import com.uce.edu.demo.repository.modelo.Producto;
+import com.uce.edu.demo.tarea31.repository.modelo.Producto;
+
+
 @Repository
 @Transactional
 public class ProductoRepositoryImpl implements IProductoRepository{
@@ -17,37 +19,28 @@ public class ProductoRepositoryImpl implements IProductoRepository{
 	private EntityManager entityManager;
 
 	@Override
+	@Transactional(value=TxType.MANDATORY)
 	public void insertar(Producto producto) {
 		// TODO Auto-generated method stub
 		this.entityManager.persist(producto);
 	}
 
+
 	@Override
+	@Transactional(value=TxType.MANDATORY)
 	public void actualizar(Producto producto) {
 		// TODO Auto-generated method stub
 		this.entityManager.merge(producto);
 	}
 
-	@Override
-	public void eliminar(Integer id) {
-		// TODO Auto-generated method stub
-		this.entityManager.remove(this.buscar(id));
-	}
 
 	@Override
-	public Producto buscar(Integer id) {
+	@Transactional(value=TxType.NOT_SUPPORTED)
+	public Producto buscar(String numero) {
 		// TODO Auto-generated method stub
-		return this.entityManager.find(Producto.class, id);
-	}
-
-	@Override
-	public Producto buscarCodigo(String codigo) {
-		// TODO Auto-generated method stub
-		TypedQuery<Producto> myQuery = this.entityManager
-				.createQuery("SELECT p FROM Producto p WHERE p.codigo= :codigo", Producto.class);
-		myQuery.setParameter("codigo", codigo);
-
-		return myQuery.getSingleResult();
+		TypedQuery<Producto>query=this.entityManager.createQuery("SELECT p FROM Producto p WHERE p.numero=: datoNumero", Producto.class);
+		query.setParameter("datoNumero", numero);
+		return query.getSingleResult();
 	}
 
 }

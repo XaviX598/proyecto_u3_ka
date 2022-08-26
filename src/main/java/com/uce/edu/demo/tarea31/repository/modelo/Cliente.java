@@ -1,4 +1,4 @@
-package com.uce.edu.demo.repository.modelo;
+package com.uce.edu.demo.tarea31.repository.modelo;
 
 import java.util.List;
 
@@ -12,33 +12,27 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="cliente_31")
+@Table(name = "cliente")
 public class Cliente {
-	
+
 	@Id
-	@Column(name = "clie_id")
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "clie_id_seq")
-	@SequenceGenerator(name = "clie_id_seq", sequenceName = "clie_id_seq", allocationSize = 1) //allocationSice es para la secuencia
+	@SequenceGenerator(name = "clie_id_seq", sequenceName = "clie_id_seq", allocationSize = 1)
+	@Column(name = "clie_id")
 	private Integer id;
-	
-	@Column(name = "clie_cedula")
-	private String cedula;
 	@Column(name = "clie_nombre")
 	private String nombre;
 	@Column(name = "clie_apellido")
 	private String apellido;
+	@Column(name = "clie_cedula")
+	private String cedula;
 	@Column(name = "clie_numero_tarjeta")
 	private String numeroTarjeta;
+
 	@OneToMany(mappedBy = "cliente")
 	private List<Factura> facturas;
-	
-	@Override
-	public String toString() {
-		return "Cliente [id=" + id + ", cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido
-				+ ", numeroTarjeta=" + numeroTarjeta +  "]";
-	}
 
-	//set y get
+	// SET y GET
 	public Integer getId() {
 		return id;
 	}
@@ -47,12 +41,20 @@ public class Cliente {
 		this.id = id;
 	}
 
-	public String getCedula() {
-		return cedula;
+	public String getNumeroTarjeta() {
+		return numeroTarjeta;
 	}
 
-	public void setCedula(String cedula) {
-		this.cedula = cedula;
+	public void setNumeroTarjeta(String numeroTarjeta) {
+		this.numeroTarjeta = numeroTarjeta;
+	}
+
+	public List<Factura> getFacturas() {
+		return facturas;
+	}
+
+	public void setFacturas(List<Factura> facturas) {
+		this.facturas = facturas;
 	}
 
 	public String getNombre() {
@@ -71,22 +73,11 @@ public class Cliente {
 		this.apellido = apellido;
 	}
 
-	public String getNumeroTarjeta() {
-		return numeroTarjeta;
+	public String getCedula() {
+		return cedula;
 	}
 
-	public void setNumeroTarjeta(String numeroTarjeta) {
-		this.numeroTarjeta = numeroTarjeta;
+	public void setCedula(String cedula) {
+		this.cedula = cedula;
 	}
-
-	public List<Factura> getFacturas() {
-		return facturas;
-	}
-
-	public void setFacturas(List<Factura> facturas) {
-		this.facturas = facturas;
-	}
-	
-	
-
 }

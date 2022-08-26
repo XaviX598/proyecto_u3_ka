@@ -1,6 +1,7 @@
 package com.uce.edu.demo;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -9,18 +10,12 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.uce.edu.demo.cajero.repository.IFacturaRepository;
-import com.uce.edu.demo.cajero.repository.modelo.DetalleFactura;
-import com.uce.edu.demo.cajero.repository.modelo.Factura;
-import com.uce.edu.demo.cajero.service.IFacturaService;
-import com.uce.edu.demo.repository.modelo.Cliente;
-import com.uce.edu.demo.repository.modelo.Habitacion;
-import com.uce.edu.demo.repository.modelo.Hotel;
-import com.uce.edu.demo.repository.modelo.Producto;
-import com.uce.edu.demo.service.IClienteService;
-import com.uce.edu.demo.service.IHotelService;
-import com.uce.edu.demo.service.IProductoService;
-import com.uce.edu.demo.service.ITransferenciaService;
+import com.uce.edu.demo.tarea31.repository.modelo.Cliente;
+import com.uce.edu.demo.tarea31.repository.modelo.Producto;
+import com.uce.edu.demo.tarea31.service.IClienteService;
+import com.uce.edu.demo.tarea31.service.IFacturaService;
+import com.uce.edu.demo.tarea31.service.IProductoService;
+
 
 @SpringBootApplication
 public class ProyectoU3KaApplication implements CommandLineRunner {
@@ -31,7 +26,7 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 	private IClienteService iClienteService;
 	
 	@Autowired
-	private IFacturaService iFacturaService;
+	private IFacturaService iFacturadService;
 	
 	@Autowired
 	private IProductoService iProductoService;
@@ -53,18 +48,40 @@ public class ProyectoU3KaApplication implements CommandLineRunner {
 		this.iClienteService.insertar(c);
 		
 		Producto p = new Producto();
-		p.setCodigo("2321");
+		p.setNumero("2321");
 		p.setNombre("Coca");
 		p.setPrecio(new BigDecimal(20));
 		p.setStock(100);
 		this.iProductoService.insertar(p);
 		
 		Producto p1 = new Producto();
-		p1.setCodigo("2321321");
+		p1.setNumero("2321321");
 		p1.setNombre("Pan");
 		p1.setPrecio(new BigDecimal(1));
 		p1.setStock(50);
 		this.iProductoService.insertar(p1);
+		
+		Producto p2 = new Producto();
+		p2.setNumero("4564561561");
+		p2.setNombre("Salchichas");
+		p2.setPrecio(new BigDecimal(5.60));
+		p2.setStock(100);
+		this.iProductoService.insertar(p2);
+		
+		Producto p3 = new Producto();
+		p3.setNumero("48941414");
+		p3.setNombre("Nachos");
+		p3.setPrecio(new BigDecimal(2.50));
+		p3.setStock(30);
+		this.iProductoService.insertar(p3);
+		
+		
+		List<String> detalles = new ArrayList<>();
+		detalles.add(p.getNumero());
+		detalles.add(p1.getNumero());
+		detalles.add(p2.getNumero());
+		detalles.add(p3.getNumero());
+		this.iFacturadService.generar(c.getCedula(), "45454", detalles);
 		
 		
 		
