@@ -388,3 +388,168 @@
 2022-08-25 13:47:28 INFO  root:103 - Probando Unary Operator para deber Prueba completada
 2022-08-25 13:47:28 INFO  root:111 - unary Lamba: XavierPruebas de los lambdas
 2022-08-25 13:47:28 INFO  root:118 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
+2022-08-29 18:39:50 INFO  root:24 - Supplier Clase: Xavier
+2022-08-29 18:39:50 INFO  root:27 - Supplier Clase: Daniel TE
+2022-08-29 18:39:50 INFO  root:33 - Supplier Lambda: Xavier 2
+2022-08-29 18:39:50 INFO  root:36 - Supplier Lambda: Daniel TE 2
+2022-08-29 18:39:50 INFO  root:40 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 18:39:50 INFO  root:46 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 18:39:50 INFO  root:49 - JAVA SUPPLIER
+2022-08-29 18:39:50 INFO  root:69 - JAVA CONSUMER
+2022-08-29 18:39:50 INFO  root:83 - predicate Lamba: false
+2022-08-29 18:39:50 INFO  root:87 - High Order predicate true
+2022-08-29 18:39:50 INFO  root:100 - function Lamba: 5
+2022-08-29 18:39:50 INFO  root:107 - High Order function 1A
+2022-08-29 18:39:50 INFO  root:119 - unary Lamba: Xaviersufijo
+2022-08-29 18:40:35 INFO  root:24 - Supplier Clase: Xavier
+2022-08-29 18:40:35 INFO  root:27 - Supplier Clase: Daniel TE
+2022-08-29 18:40:35 INFO  root:33 - Supplier Lambda: Xavier 2
+2022-08-29 18:40:35 INFO  root:36 - Supplier Lambda: Daniel TE 2
+2022-08-29 18:40:35 INFO  root:40 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 18:40:35 INFO  root:46 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 18:40:35 INFO  root:49 - JAVA SUPPLIER
+2022-08-29 18:40:35 INFO  root:69 - JAVA CONSUMER
+2022-08-29 18:40:35 INFO  root:83 - predicate Lamba: false
+2022-08-29 18:40:35 INFO  root:87 - High Order predicate true
+2022-08-29 18:40:35 INFO  root:100 - function Lamba: 5
+2022-08-29 18:40:35 INFO  root:107 - High Order function 1A
+2022-08-29 18:40:35 INFO  root:119 - unary Lamba: Xaviersufijo
+2022-08-29 18:50:45 INFO  root:24 - Supplier Clase: Xavier
+2022-08-29 18:50:45 INFO  root:27 - Supplier Clase: Daniel TE
+2022-08-29 18:50:45 INFO  root:33 - Supplier Lambda: Xavier 2
+2022-08-29 18:50:45 INFO  root:36 - Supplier Lambda: Daniel TE 2
+2022-08-29 18:50:45 INFO  root:40 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 18:50:45 INFO  root:46 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 18:50:45 INFO  root:49 - JAVA SUPPLIER
+2022-08-29 18:50:45 INFO  root:69 - JAVA CONSUMER
+2022-08-29 18:50:45 INFO  root:83 - predicate Lamba: false
+2022-08-29 18:50:45 INFO  root:87 - High Order predicate true
+2022-08-29 18:50:45 INFO  root:92 - JAVA PREDICATE
+2022-08-29 18:50:45 INFO  root:108 - function Lamba: 5
+2022-08-29 18:50:45 INFO  root:115 - High Order function 1A
+2022-08-29 18:50:45 INFO  root:127 - unary Lamba: Xaviersufijo
+2022-08-29 18:54:15 INFO  root:24 - Supplier Clase: Xavier
+2022-08-29 18:54:15 INFO  root:27 - Supplier Clase: Daniel TE
+2022-08-29 18:54:15 INFO  root:33 - Supplier Lambda: Xavier 2
+2022-08-29 18:54:15 INFO  root:36 - Supplier Lambda: Daniel TE 2
+2022-08-29 18:54:15 INFO  root:40 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 18:54:15 INFO  root:46 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 18:54:15 INFO  root:49 - JAVA SUPPLIER
+2022-08-29 18:54:15 INFO  root:69 - JAVA CONSUMER
+2022-08-29 18:54:15 INFO  root:83 - predicate Lamba: false
+2022-08-29 18:54:15 INFO  root:87 - High Order predicate true
+2022-08-29 18:54:15 INFO  root:92 - JAVA PREDICATE
+2022-08-29 18:54:15 INFO  root:108 - function Lamba: 5
+2022-08-29 18:54:15 INFO  root:115 - High Order function 1A
+2022-08-29 18:54:15 INFO  root:127 - unary Lamba: Xaviersufijo
+2022-08-29 18:57:31 INFO  root:28 - Supplier Clase: Xavier
+2022-08-29 18:57:31 INFO  root:31 - Supplier Clase: Daniel TE
+2022-08-29 18:57:31 INFO  root:37 - Supplier Lambda: Xavier 2
+2022-08-29 18:57:31 INFO  root:40 - Supplier Lambda: Daniel TE 2
+2022-08-29 18:57:31 INFO  root:44 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 18:57:31 INFO  root:50 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 18:57:31 INFO  root:53 - JAVA SUPPLIER
+2022-08-29 18:57:31 INFO  root:73 - JAVA CONSUMER
+2022-08-29 18:57:31 INFO  root:87 - predicate Lamba: false
+2022-08-29 18:57:31 INFO  root:91 - High Order predicate true
+2022-08-29 18:57:31 INFO  root:96 - JAVA PREDICATE
+2022-08-29 18:57:31 INFO  root:115 - function Lamba: 5
+2022-08-29 18:57:31 INFO  root:122 - High Order function 1A
+2022-08-29 18:57:31 INFO  root:134 - unary Lamba: Xaviersufijo
+2022-08-29 18:58:04 INFO  root:28 - Supplier Clase: Xavier
+2022-08-29 18:58:04 INFO  root:31 - Supplier Clase: Daniel TE
+2022-08-29 18:58:04 INFO  root:37 - Supplier Lambda: Xavier 2
+2022-08-29 18:58:04 INFO  root:40 - Supplier Lambda: Daniel TE 2
+2022-08-29 18:58:04 INFO  root:44 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 18:58:04 INFO  root:50 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 18:58:04 INFO  root:53 - JAVA SUPPLIER
+2022-08-29 18:58:04 INFO  root:73 - JAVA CONSUMER
+2022-08-29 18:58:04 INFO  root:87 - predicate Lamba: false
+2022-08-29 18:58:04 INFO  root:91 - High Order predicate true
+2022-08-29 18:58:04 INFO  root:96 - JAVA PREDICATE
+2022-08-29 18:58:04 INFO  root:116 - function Lamba: 5
+2022-08-29 18:58:04 INFO  root:123 - High Order function 1A
+2022-08-29 18:58:04 INFO  root:135 - unary Lamba: Xaviersufijo
+2022-08-29 19:09:22 INFO  root:32 - Supplier Clase: Xavier
+2022-08-29 19:09:22 INFO  root:35 - Supplier Clase: Daniel TE
+2022-08-29 19:09:22 INFO  root:41 - Supplier Lambda: Xavier 2
+2022-08-29 19:09:22 INFO  root:44 - Supplier Lambda: Daniel TE 2
+2022-08-29 19:09:22 INFO  root:48 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 19:09:22 INFO  root:54 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 19:09:22 INFO  root:57 - JAVA SUPPLIER
+2022-08-29 19:09:22 INFO  root:77 - JAVA CONSUMER
+2022-08-29 19:09:22 INFO  root:91 - predicate Lamba: false
+2022-08-29 19:09:22 INFO  root:95 - High Order predicate true
+2022-08-29 19:09:22 INFO  root:100 - JAVA PREDICATE
+2022-08-29 19:09:22 INFO  root:120 - function Lamba: 5
+2022-08-29 19:09:22 INFO  root:127 - High Order function 1A
+2022-08-29 19:09:22 INFO  root:132 - JAVA FUNCTION
+2022-08-29 19:09:22 INFO  root:152 - unary Lamba: Xaviersufijo
+2022-08-29 19:13:20 INFO  root:36 - Supplier Clase: Xavier
+2022-08-29 19:13:20 INFO  root:39 - Supplier Clase: Daniel TE
+2022-08-29 19:13:20 INFO  root:45 - Supplier Lambda: Xavier 2
+2022-08-29 19:13:20 INFO  root:48 - Supplier Lambda: Daniel TE 2
+2022-08-29 19:13:20 INFO  root:52 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 19:13:20 INFO  root:58 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 19:13:20 INFO  root:61 - JAVA SUPPLIER
+2022-08-29 19:13:20 INFO  root:81 - JAVA CONSUMER
+2022-08-29 19:13:20 INFO  root:95 - predicate Lamba: false
+2022-08-29 19:13:20 INFO  root:99 - High Order predicate true
+2022-08-29 19:13:20 INFO  root:104 - JAVA PREDICATE
+2022-08-29 19:13:20 INFO  root:124 - function Lamba: 5
+2022-08-29 19:13:20 INFO  root:131 - High Order function 1A
+2022-08-29 19:13:20 INFO  root:136 - JAVA FUNCTION
+2022-08-29 19:14:00 INFO  root:36 - Supplier Clase: Xavier
+2022-08-29 19:14:00 INFO  root:39 - Supplier Clase: Daniel TE
+2022-08-29 19:14:00 INFO  root:45 - Supplier Lambda: Xavier 2
+2022-08-29 19:14:00 INFO  root:48 - Supplier Lambda: Daniel TE 2
+2022-08-29 19:14:00 INFO  root:52 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 19:14:00 INFO  root:58 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 19:14:00 INFO  root:61 - JAVA SUPPLIER
+2022-08-29 19:14:00 INFO  root:81 - JAVA CONSUMER
+2022-08-29 19:14:00 INFO  root:95 - predicate Lamba: false
+2022-08-29 19:14:00 INFO  root:99 - High Order predicate true
+2022-08-29 19:14:00 INFO  root:104 - JAVA PREDICATE
+2022-08-29 19:14:00 INFO  root:124 - function Lamba: 5
+2022-08-29 19:14:00 INFO  root:131 - High Order function 1A
+2022-08-29 19:14:00 INFO  root:136 - JAVA FUNCTION
+2022-08-29 19:14:48 INFO  root:36 - Supplier Clase: Xavier
+2022-08-29 19:14:48 INFO  root:39 - Supplier Clase: Daniel TE
+2022-08-29 19:14:48 INFO  root:45 - Supplier Lambda: Xavier 2
+2022-08-29 19:14:48 INFO  root:48 - Supplier Lambda: Daniel TE 2
+2022-08-29 19:14:48 INFO  root:52 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 19:14:48 INFO  root:58 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 19:14:48 INFO  root:61 - JAVA SUPPLIER
+2022-08-29 19:14:48 INFO  root:81 - JAVA CONSUMER
+2022-08-29 19:14:48 INFO  root:95 - predicate Lamba: false
+2022-08-29 19:14:48 INFO  root:99 - High Order predicate true
+2022-08-29 19:14:48 INFO  root:104 - JAVA PREDICATE
+2022-08-29 19:14:48 INFO  root:124 - function Lamba: 5
+2022-08-29 19:14:48 INFO  root:131 - High Order function 1A
+2022-08-29 19:14:48 INFO  root:136 - JAVA FUNCTION
+2022-08-29 19:14:48 INFO  root:19 - Impresion: num: 2
+2022-08-29 19:14:48 INFO  root:19 - Impresion: num: 3
+2022-08-29 19:14:48 INFO  root:19 - Impresion: num: 4
+2022-08-29 19:14:48 INFO  root:19 - Impresion: num: 5
+2022-08-29 19:14:48 INFO  root:19 - Impresion: num: 6
+2022-08-29 19:14:48 INFO  root:158 - unary Lamba: Xaviersufijo
+2022-08-29 20:23:53 INFO  root:39 - Supplier Clase: Xavier
+2022-08-29 20:23:53 INFO  root:42 - Supplier Clase: Daniel TE
+2022-08-29 20:23:53 INFO  root:48 - Supplier Lambda: Xavier 2
+2022-08-29 20:23:53 INFO  root:51 - Supplier Lambda: Daniel TE 2
+2022-08-29 20:23:53 INFO  root:55 - High Order Supplier Hola mundo Se proceso el dato
+2022-08-29 20:23:53 INFO  root:61 - High Order Supplier 213213234 Se proceso el dato
+2022-08-29 20:23:53 INFO  root:70 - JAVA SUPPLIER
+2022-08-29 20:23:53 INFO  root:90 - JAVA CONSUMER
+2022-08-29 20:23:53 INFO  root:104 - predicate Lamba: false
+2022-08-29 20:23:53 INFO  root:108 - High Order predicate true
+2022-08-29 20:23:53 INFO  root:113 - JAVA PREDICATE
+2022-08-29 20:23:53 INFO  root:133 - function Lamba: 5
+2022-08-29 20:23:53 INFO  root:140 - High Order function 1A
+2022-08-29 20:23:53 INFO  root:145 - JAVA FUNCTION
+2022-08-29 20:23:53 INFO  root:22 - Impresion: num: 2
+2022-08-29 20:23:53 INFO  root:22 - Impresion: num: 3
+2022-08-29 20:23:53 INFO  root:22 - Impresion: num: 4
+2022-08-29 20:23:53 INFO  root:22 - Impresion: num: 5
+2022-08-29 20:23:53 INFO  root:22 - Impresion: num: 6
+2022-08-29 20:23:53 INFO  root:183 - unary Lamba: Xaviersufijo
