@@ -1,16 +1,15 @@
-package com.uce.edu.demo.hilos.tradicional;
+package com.uce.edu.demo.hilos.paralelo;
 
 import java.util.List;
 
-public class Cajero {
-	
-	private String nombre;
-	
-	private List<String> clientes;
+public class CajeroParalelo {
 
+	private String nombre;
+
+	private List<String> clientes;
 	
-	public Cajero(String nombre, List<String> clientes) {
-		super();
+	public CajeroParalelo(String nombre, List<String> clientes) {
+		
 		this.nombre = nombre;
 		this.clientes = clientes;
 	}
@@ -19,7 +18,7 @@ public class Cajero {
 
 	@Override
 	public String toString() {
-		return "Cajero [nombre=" + nombre + ", clientes=" + clientes + "]";
+		return "CajeroParalelo [nombre=" + nombre + ", clientes=" + clientes + "]";
 	}
 
 
@@ -40,6 +39,5 @@ public class Cajero {
 	public void setClientes(List<String> clientes) {
 		this.clientes = clientes;
 	}
-	
 
 }

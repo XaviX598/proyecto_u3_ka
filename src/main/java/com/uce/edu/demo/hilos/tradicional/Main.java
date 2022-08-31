@@ -8,6 +8,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		long tiempoInicial = System.currentTimeMillis(); //tiempo en milisegundos 
+		
+
+		System.out.println("Nombre Hilo: " + Thread.currentThread().getName()); 
 
 		Cajero cajero1 = new Cajero("Xavier", Arrays.asList("Pepito","Juan","Daniela","Pedro"));
 		Cajero cajero2 = new Cajero("Pedro", Arrays.asList("Pepit2","Juan2","Daniela2"));
@@ -15,8 +18,12 @@ public class Main {
 		
 		PCCajero gestorAtencion = new PCCajero();
 		gestorAtencion.procesar(cajero1);
-		gestorAtencion.procesar(cajero2);
-		gestorAtencion.procesar(cajero3);
+		
+		PCCajero gestorAtencion2 = new PCCajero();
+		gestorAtencion2.procesar(cajero2);
+		
+		PCCajero gestorAtencion3 = new PCCajero();
+		gestorAtencion3.procesar(cajero3);
 		
 		long tiempoFinal = System.currentTimeMillis(); //tiempo en milisegundos
 		
