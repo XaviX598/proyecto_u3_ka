@@ -1,10 +1,24 @@
 package com.uce.edu.demo.service.tarea.funcional;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
 import org.apache.log4j.Logger;
 
 public class MainInterfacesFuncionales {
 
 	private static final Logger log = Logger.getRootLogger();
+
+	public static boolean prueba(String cadena) {
+		return cadena.contains("P");
+	}
+	
+	public static void imprimir(Integer valor) {
+		log.info("Impresion: " + valor);
+	}
+
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -33,6 +47,16 @@ public class MainInterfacesFuncionales {
 			return valorFinal;
 		});
 		log.info("High Order Supplier Tarea" + valorHO1);
+
+		// JAVA
+
+		log.info("JAVA SUPPLIER");
+		for (int i = 1; i < 10; i++) {
+			Stream<String> test = Stream.generate(() -> "Me voy a repetir muchas veces veces").limit(i);
+
+			test.forEach(cadena -> System.out.println(cadena));
+		}
+
 //
 		// ------------------------------------------------------CONSUMER------------------------------------------------------
 //
@@ -49,12 +73,17 @@ public class MainInterfacesFuncionales {
 		// Metodos High Order
 		metodosHO.consumirConsumer(valor -> System.out.println(valor), 23);
 
+		// JAVA
+		log.info("JAVA CONSUMER");
+		List<String> listado = Arrays.asList("Xavier", "Pedro", "Rom", "Juan", "Carolina");
+		listado.forEach(cadena -> System.out.println(cadena));
+
 //		// ------------------------------------------------------PREDICATE------------------------------------------------------
 //
 		// Clases
 		IEstudiantePredicate<String> predicateClase = new EstudiantePredicateImpl();
 		boolean valorImprimir = predicateClase.evaluar("Xavier");
-		log.info("predicate Clase Tarea: " + valorImprimir );
+		log.info("predicate Clase Tarea: " + valorImprimir);
 		// Lambdas
 
 		IEstudiantePredicate<String> predicateLamba = cadena -> cadena.contains("P");
@@ -63,13 +92,25 @@ public class MainInterfacesFuncionales {
 		// Metodos High Order
 		boolean respuesta = metodosHO.consumirPredicate(cadena -> cadena.contains("P"), "XavierP");
 		log.info("High Order predicate " + respuesta);
+
+		// JAVA
+
+		log.info("JAVA PREDICATE");
+		Stream<String> nuevaLista = listado.stream().filter(cadena -> cadena.contains("P"));
+		nuevaLista.forEach(numero -> System.out.println(numero));
+
+		// O
+
+		System.out.println("Mediante un metodo");
+		Stream<String> nuevaLista1 = listado.stream().filter(cadena -> prueba(cadena));
+		nuevaLista1.forEach(cadena -> System.out.println(cadena));
+
 ////		// ------------------------------------------------------FUNCTION------------------------------------------------------
 ////
 		// Clases
 		IEstudianteFunction<String, Integer> functionPredicate = new EstudianteFunctionImpl<>();
 		String funcionImprimir = functionPredicate.aplicar(23);
-		log.info("Function clase: el numero es: "+ funcionImprimir);
-		
+		log.info("Function clase: el numero es: " + funcionImprimir);
 
 		// Lambdas
 
@@ -94,6 +135,31 @@ public class MainInterfacesFuncionales {
 			return retorno;
 		}, 1);
 		log.info("High Order function " + valorFinalHO);
+		
+		log.info("JAVA CONSUMER USADO PARA FUNCTION");
+		List<String> listaNumeros = Arrays.asList("1", "2", "3", "4", "5");
+		listaNumeros.forEach(cadena -> System.out.println(cadena));
+
+		// JAVA
+		// CUANDO QUERAMOS REVISAR UNA CONSIDICON SE USA ESTA INTERFAZ EN JAVA PARA
+		// FILTRAR INFORMACION
+		log.info("JAVA FUNCTION");
+		// Conversiones/cast Empleado -> EmpleadoDTO o ligero
+		Stream<Integer> listaCambiada = listaNumeros.stream().map(cadena -> {
+			String nuevaCadena = cadena.concat("23");
+			Integer valor = Integer.parseInt(nuevaCadena);
+			return valor;
+		});
+		// DECLARATIVA : ideas/inten
+		listaCambiada.forEach(valor -> System.out.println(valor));
+		// O
+		Stream<Integer> listaCambiada1 = listaNumeros.stream().map(cadena -> {
+			String nuevaCadena = cadena.concat("23");
+			Integer valor = Integer.parseInt(nuevaCadena);
+			return valor;
+		});
+		listaCambiada1.forEach(valor -> imprimir(valor));
+
 //		// ------------------------------------------------------UNARY OPERATOR
 //		// (FUNCTION)------------------------------------------------------
 //

@@ -553,3 +553,135 @@
 2022-08-29 20:23:53 INFO  root:22 - Impresion: num: 5
 2022-08-29 20:23:53 INFO  root:22 - Impresion: num: 6
 2022-08-29 20:23:53 INFO  root:183 - unary Lamba: Xaviersufijo
+2022-09-01 19:02:47 INFO  root:21 - Supplier Clase Tarea: Xavier
+2022-09-01 19:02:47 INFO  root:26 - Supplier Lambda Tarea: Pedro Pablo
+2022-09-01 19:02:47 INFO  root:30 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-09-01 19:02:47 INFO  root:37 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-09-01 19:02:47 INFO  root:41 - JAVA SUPPLIER
+2022-09-01 19:02:47 INFO  root:68 - predicate Clase Tarea: false
+2022-09-01 19:02:47 INFO  root:72 - predicate Lamba Tarea: false
+2022-09-01 19:02:47 INFO  root:76 - High Order predicate true
+2022-09-01 19:02:47 INFO  root:82 - Function clase: el numero es: 23
+2022-09-01 19:02:47 INFO  root:90 - Function: Si cumple con la condicion
+2022-09-01 19:02:47 INFO  root:99 - function Lamba: 5
+2022-09-01 19:02:47 INFO  root:106 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-09-01 19:02:47 INFO  root:113 - Probando Unary Operator para deber Prueba completada
+2022-09-01 19:02:47 INFO  root:121 - unary Lamba: XavierPruebas de los lambdas
+2022-09-01 19:02:47 INFO  root:128 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
+2022-09-01 19:03:12 INFO  root:21 - Supplier Clase Tarea: Xavier
+2022-09-01 19:03:12 INFO  root:26 - Supplier Lambda Tarea: Pedro Pablo
+2022-09-01 19:03:12 INFO  root:30 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-09-01 19:03:12 INFO  root:37 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-09-01 19:03:12 INFO  root:41 - JAVA SUPPLIER
+2022-09-01 19:03:12 INFO  root:68 - predicate Clase Tarea: false
+2022-09-01 19:03:12 INFO  root:72 - predicate Lamba Tarea: false
+2022-09-01 19:03:12 INFO  root:76 - High Order predicate true
+2022-09-01 19:03:12 INFO  root:82 - Function clase: el numero es: 23
+2022-09-01 19:03:12 INFO  root:90 - Function: Si cumple con la condicion
+2022-09-01 19:03:12 INFO  root:99 - function Lamba: 5
+2022-09-01 19:03:12 INFO  root:106 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-09-01 19:03:12 INFO  root:113 - Probando Unary Operator para deber Prueba completada
+2022-09-01 19:03:12 INFO  root:121 - unary Lamba: XavierPruebas de los lambdas
+2022-09-01 19:03:12 INFO  root:128 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
+2022-09-01 19:11:40 INFO  root:21 - Supplier Clase Tarea: Xavier
+2022-09-01 19:11:40 INFO  root:26 - Supplier Lambda Tarea: Pedro Pablo
+2022-09-01 19:11:40 INFO  root:30 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-09-01 19:11:40 INFO  root:37 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-09-01 19:11:40 INFO  root:41 - JAVA SUPPLIER
+2022-09-01 19:11:40 INFO  root:70 - predicate Clase Tarea: false
+2022-09-01 19:11:40 INFO  root:74 - predicate Lamba Tarea: false
+2022-09-01 19:11:40 INFO  root:78 - High Order predicate true
+2022-09-01 19:11:40 INFO  root:84 - Function clase: el numero es: 23
+2022-09-01 19:11:40 INFO  root:92 - Function: Si cumple con la condicion
+2022-09-01 19:11:40 INFO  root:101 - function Lamba: 5
+2022-09-01 19:11:40 INFO  root:108 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-09-01 19:11:40 INFO  root:115 - Probando Unary Operator para deber Prueba completada
+2022-09-01 19:11:40 INFO  root:123 - unary Lamba: XavierPruebas de los lambdas
+2022-09-01 19:11:40 INFO  root:130 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
+2022-09-01 19:12:04 INFO  root:21 - Supplier Clase Tarea: Xavier
+2022-09-01 19:12:04 INFO  root:26 - Supplier Lambda Tarea: Pedro Pablo
+2022-09-01 19:12:04 INFO  root:30 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-09-01 19:12:04 INFO  root:37 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-09-01 19:12:04 INFO  root:41 - JAVA SUPPLIER
+2022-09-01 19:12:04 INFO  root:69 - predicate Clase Tarea: false
+2022-09-01 19:12:04 INFO  root:73 - predicate Lamba Tarea: false
+2022-09-01 19:12:04 INFO  root:77 - High Order predicate true
+2022-09-01 19:12:04 INFO  root:83 - Function clase: el numero es: 23
+2022-09-01 19:12:04 INFO  root:91 - Function: Si cumple con la condicion
+2022-09-01 19:12:04 INFO  root:100 - function Lamba: 5
+2022-09-01 19:12:04 INFO  root:107 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-09-01 19:12:04 INFO  root:114 - Probando Unary Operator para deber Prueba completada
+2022-09-01 19:12:04 INFO  root:122 - unary Lamba: XavierPruebas de los lambdas
+2022-09-01 19:12:04 INFO  root:129 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
+2022-09-01 19:13:40 INFO  root:23 - Supplier Clase Tarea: Xavier
+2022-09-01 19:13:40 INFO  root:28 - Supplier Lambda Tarea: Pedro Pablo
+2022-09-01 19:13:40 INFO  root:32 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-09-01 19:13:40 INFO  root:39 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-09-01 19:13:40 INFO  root:43 - JAVA SUPPLIER
+2022-09-01 19:13:40 INFO  root:67 - JAVA CONSUMER
+2022-09-01 19:13:40 INFO  root:76 - predicate Clase Tarea: false
+2022-09-01 19:13:40 INFO  root:80 - predicate Lamba Tarea: false
+2022-09-01 19:13:40 INFO  root:84 - High Order predicate true
+2022-09-01 19:13:40 INFO  root:90 - Function clase: el numero es: 23
+2022-09-01 19:13:40 INFO  root:98 - Function: Si cumple con la condicion
+2022-09-01 19:13:40 INFO  root:107 - function Lamba: 5
+2022-09-01 19:13:40 INFO  root:114 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-09-01 19:13:40 INFO  root:121 - Probando Unary Operator para deber Prueba completada
+2022-09-01 19:13:40 INFO  root:129 - unary Lamba: XavierPruebas de los lambdas
+2022-09-01 19:13:40 INFO  root:136 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
+2022-09-01 19:39:33 INFO  root:33 - Supplier Clase Tarea: Xavier
+2022-09-01 19:39:33 INFO  root:38 - Supplier Lambda Tarea: Pedro Pablo
+2022-09-01 19:39:33 INFO  root:42 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-09-01 19:39:33 INFO  root:49 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-09-01 19:39:33 INFO  root:53 - JAVA SUPPLIER
+2022-09-01 19:39:33 INFO  root:77 - JAVA CONSUMER
+2022-09-01 19:39:33 INFO  root:86 - predicate Clase Tarea: false
+2022-09-01 19:39:33 INFO  root:90 - predicate Lamba Tarea: false
+2022-09-01 19:39:33 INFO  root:94 - High Order predicate true
+2022-09-01 19:39:33 INFO  root:98 - JAVA PREDICATE
+2022-09-01 19:39:33 INFO  root:113 - Function clase: el numero es: 23
+2022-09-01 19:39:33 INFO  root:121 - Function: Si cumple con la condicion
+2022-09-01 19:39:33 INFO  root:130 - function Lamba: 5
+2022-09-01 19:39:33 INFO  root:137 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-09-01 19:39:33 INFO  root:139 - JAVA CONSUMER USADO PARA FUNCTION
+2022-09-01 19:39:33 INFO  root:146 - JAVA FUNCTION
+2022-09-01 19:39:37 INFO  root:33 - Supplier Clase Tarea: Xavier
+2022-09-01 19:39:37 INFO  root:38 - Supplier Lambda Tarea: Pedro Pablo
+2022-09-01 19:39:37 INFO  root:42 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-09-01 19:39:37 INFO  root:49 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-09-01 19:39:37 INFO  root:53 - JAVA SUPPLIER
+2022-09-01 19:39:37 INFO  root:77 - JAVA CONSUMER
+2022-09-01 19:39:37 INFO  root:86 - predicate Clase Tarea: false
+2022-09-01 19:39:37 INFO  root:90 - predicate Lamba Tarea: false
+2022-09-01 19:39:37 INFO  root:94 - High Order predicate true
+2022-09-01 19:39:37 INFO  root:98 - JAVA PREDICATE
+2022-09-01 19:39:37 INFO  root:113 - Function clase: el numero es: 23
+2022-09-01 19:39:37 INFO  root:121 - Function: Si cumple con la condicion
+2022-09-01 19:39:37 INFO  root:130 - function Lamba: 5
+2022-09-01 19:39:37 INFO  root:137 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-09-01 19:39:37 INFO  root:139 - JAVA CONSUMER USADO PARA FUNCTION
+2022-09-01 19:39:37 INFO  root:146 - JAVA FUNCTION
+2022-09-01 19:40:03 INFO  root:33 - Supplier Clase Tarea: Xavier
+2022-09-01 19:40:03 INFO  root:38 - Supplier Lambda Tarea: Pedro Pablo
+2022-09-01 19:40:03 INFO  root:42 - High Order Supplier TareaProbando Lambas Se proceso el dato
+2022-09-01 19:40:03 INFO  root:49 - High Order Supplier Tarea32concatenando... Se proceso el dato
+2022-09-01 19:40:03 INFO  root:53 - JAVA SUPPLIER
+2022-09-01 19:40:03 INFO  root:77 - JAVA CONSUMER
+2022-09-01 19:40:03 INFO  root:86 - predicate Clase Tarea: false
+2022-09-01 19:40:03 INFO  root:90 - predicate Lamba Tarea: false
+2022-09-01 19:40:03 INFO  root:94 - High Order predicate true
+2022-09-01 19:40:03 INFO  root:98 - JAVA PREDICATE
+2022-09-01 19:40:03 INFO  root:113 - Function clase: el numero es: 23
+2022-09-01 19:40:03 INFO  root:121 - Function: Si cumple con la condicion
+2022-09-01 19:40:03 INFO  root:130 - function Lamba: 5
+2022-09-01 19:40:03 INFO  root:137 - High Order function 1Ingresando datos en Function Se proceso el dato
+2022-09-01 19:40:03 INFO  root:139 - JAVA CONSUMER USADO PARA FUNCTION
+2022-09-01 19:40:03 INFO  root:146 - JAVA FUNCTION
+2022-09-01 19:40:03 INFO  root:18 - Impresion: 123
+2022-09-01 19:40:03 INFO  root:18 - Impresion: 223
+2022-09-01 19:40:03 INFO  root:18 - Impresion: 323
+2022-09-01 19:40:03 INFO  root:18 - Impresion: 423
+2022-09-01 19:40:03 INFO  root:18 - Impresion: 523
+2022-09-01 19:40:03 INFO  root:169 - Probando Unary Operator para deber Prueba completada
+2022-09-01 19:40:03 INFO  root:177 - unary Lamba: XavierPruebas de los lambdas
+2022-09-01 19:40:03 INFO  root:184 - High Order function 1Ingresando para UnaryOperator Se proceso el dato
