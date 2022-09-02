@@ -6,6 +6,7 @@ public class MainParalelo {
 
 	public static void main(String[] args) {
 
+		/*
 		long tiempoInicial = System.currentTimeMillis(); // tiempo en milisegundos
 
 		System.out.println("Nombre Hilo: " + Thread.currentThread().getName());
@@ -41,6 +42,43 @@ public class MainParalelo {
 		long tiempoTranscurrido = (tiempoFinal - tiempoInicial) / 1000;
 
 		System.out.println(tiempoTranscurrido + "seg");
+		*/
+		
+		long tiempoInicial = System.currentTimeMillis(); // tiempo en milisegundos
+
+		System.out.println("Nombre Hilo: " + Thread.currentThread().getName());
+
+		CallCenter asesor1 = new CallCenter("Xavier", Arrays.asList("Romina"));
+		CallCenter asesor2 = new CallCenter("Pedro", Arrays.asList("Carla"));
+		CallCenter asesor3 = new CallCenter("Pablo", Arrays.asList("Paco"));
+		CallCenter asesor4 = new CallCenter("Luis", Arrays.asList("David"));
+		CallCenter asesor5 = new CallCenter("Carlo", Arrays.asList("Vicky"));
+		
+		
+
+		PCCallCenter gestorAtencion = new PCCallCenter(asesor1);
+		gestorAtencion.start(); // este metodo por dentro llama al run
+
+		PCCallCenter gestorAtencion2 = new PCCallCenter(asesor2);
+		gestorAtencion2.start();
+
+		PCCallCenter gestorAtencion3 = new PCCallCenter(asesor3);
+		gestorAtencion3.start();
+		
+		PCCallCenter gestorAtencion4 = new PCCallCenter(asesor4);
+		gestorAtencion4.start(); // este metodo por dentro llama al run
+
+		PCCallCenter gestorAtencion5 = new PCCallCenter(asesor5);
+		gestorAtencion5.start();
+
+
+		long tiempoFinal = System.currentTimeMillis(); // tiempo en milisegundos
+
+		long tiempoTranscurrido = (tiempoFinal - tiempoInicial) / 1000;
+
+		System.out.println(tiempoTranscurrido + "seg");
+		
+		
 
 	}
 
